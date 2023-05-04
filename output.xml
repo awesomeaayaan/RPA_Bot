@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.9.13 on win32)" generated="20230504 14:52:22.844" rpa="true" schemaversion="3">
+<suite id="s1" name="Tasks" source="d:\Intern\started with robocorp\tasks.robot">
+<test id="s1-t1" name="Insert the sales data for the week and export it as pdf" line="7">
+<kw name="Open the intranet website">
+<kw name="Open Available Browser" library="RPA.Browser.Selenium">
+<arg>https://robotsparebinindustries.com/</arg>
+<doc>Attempts to open a browser on the user's device from a set of
+supported browsers. Automatically downloads a corresponding webdriver
+if none is already installed.</doc>
+<msg timestamp="20230504 14:52:24.651" level="INFO">Creating an instance of the Chrome WebDriver.</msg>
+<msg timestamp="20230504 14:52:24.668" level="INFO">Executing: c:\ProgramData\robocorp\ht\62521b0_b1f3c24_1c0bc041\lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe --browser chrome --output json</msg>
+<msg timestamp="20230504 14:52:28.278" level="INFO">Created Chrome browser with arguments: --disable-dev-shm-usage --disable-web-security --allow-running-insecure-content --no-sandbox</msg>
+<msg timestamp="20230504 14:52:28.279" level="INFO" html="true">&lt;p&gt;Attempted combinations:&lt;/p&gt;&lt;div class="doc"&gt;&lt;table&gt;&lt;tr&gt;&lt;th&gt;Browser&lt;/th&gt;&lt;th&gt;Download&lt;/th&gt;&lt;th&gt;Error&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Chrome&lt;/td&gt;&lt;td&gt;False&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;</msg>
+<msg timestamp="20230504 14:52:28.279" level="INFO">Opening url 'https://robotsparebinindustries.com/'</msg>
+<status status="PASS" starttime="20230504 14:52:24.648" endtime="20230504 14:52:29.316"/>
+</kw>
+<status status="PASS" starttime="20230504 14:52:24.646" endtime="20230504 14:52:29.318"/>
+</kw>
+<status status="PASS" starttime="20230504 14:52:24.640" endtime="20230504 14:52:29.320"/>
+</test>
+<doc>Template robot main suite.</doc>
+<status status="PASS" starttime="20230504 14:52:22.867" endtime="20230504 14:52:29.326"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tasks</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Tasks">Tasks</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
